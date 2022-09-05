@@ -63,7 +63,7 @@ async def my_waifu(ctx,waifu:str):
 
 #部下profile
 @bot.slash_command(description="Get subordinate's profile",
-                   guild_ids=[778902281222750208])
+                   guild_ids=[YOUR_GUILD_ID])
 
 async def my_sub(ctxs,subordinate:str):
 
