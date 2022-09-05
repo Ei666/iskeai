@@ -1,0 +1,104 @@
+import disnake
+from disnake.ext import commands
+import isekai
+
+intents=disnake.Intents.default()
+intents.members=True
+intents.message_content=True
+
+
+#自动填写
+#async def autocomp_langs(inter: disnake.ApplicationCommandInteraction, user_input: str):
+   # return [lang for lang in isekai.harem_list if user_input.lower() in lang]
+
+
+bot = commands.Bot(command_prefix=commands.when_mentioned,activity=disnake.Game(name="Isekai:DemonWaifu"))
+
+@bot.slash_command(description="Get waifu's profile",
+				   guild_ids=[YOUR_GUILD_ID])
+
+async def my_waifu(ctx,waifu:str):
+
+    if waifu.lower() in isekai.harem_list:
+    
+        waifu=waifu.lower()
+        embed = disnake.Embed(
+        title=waifu.title(),
+        description=isekai.harem.get(waifu)[1],
+        color=disnake.Colour.purple()   
+        )
+
+        embed.set_author(
+         name=isekai.harem.get(waifu)[0],
+         url=isekai.harem.get(waifu)[6],
+         icon_url=isekai.harem.get(waifu)[7]
+        )
+
+        embed.set_thumbnail(url=isekai.harem.get(waifu)[7])
+
+        embed.set_image(url=isekai.harem.get(waifu)[6])
+
+        embed.add_field(name="Dating",value=isekai.harem.get(waifu)[2],inline=False)
+
+        embed.add_field(name="Prototpye", value=isekai.harem.get(waifu)[3], inline=True)
+
+        embed.add_field(name="Rank Effect", value=isekai.harem.get(waifu)[4], inline=True)
+
+        embed.add_field(name="Obtain", value=isekai.harem.get(waifu)[5], inline=False)
+
+        embed.set_footer(
+        text="Isekai:Demon Waifu",
+        icon_url="https://s2.loli.net/2022/08/16/ZdWXtIOH6B7aveD.png",
+        )
+
+        await ctx.response.send_message(embed=embed)
+    else:
+        await ctx.response.send_message(f"Couldn't find a waifu called {waifu},my lord")
+
+#自动填写,后25位魔妃
+#@my_waifu.autocomplete("waifu")
+#async def waifu_autocomp(inter: disnake.ApplicationCommandInteraction, string:str):
+    #string=string.lower()
+    #return [lang for lang in isekai.harem_list[-24:-1] if string in lang.lower()]
+
+#部下profile
+@bot.slash_command(description="Get subordinate's profile",
+                   guild_ids=[778902281222750208])
+
+async def my_sub(ctxs,subordinate:str):
+
+    if subordinate.lower() in isekai.subs_list:
+    
+        subordinate=subordinate.lower()
+        embed=disnake.Embed(
+        title=subordinate.title(),
+        description=isekai.subs.get(subordinate)[3],
+        color=disnake.Colour.yellow()   
+
+        )
+        embed.set_author(
+         name=isekai.subs.get(subordinate)[0],
+         url=isekai.subs.get(subordinate)[4],
+         icon_url=isekai.subs.get(subordinate)[5]
+        )
+
+        embed.set_thumbnail(url=isekai.subs.get(subordinate)[5])
+
+        embed.set_image(url=isekai.subs.get(subordinate)[4])
+
+        embed.add_field(name="Force",value=isekai.subs.get(subordinate)[1],inline=False)
+
+        embed.add_field(name="Obtain", value=isekai.subs.get(subordinate)[2],inline=True)
+
+        embed.set_footer(
+        text="Isekai:Demon Waifu",
+        icon_url="https://s2.loli.net/2022/08/16/ZdWXtIOH6B7aveD.png",
+        )
+
+        await ctxs.response.send_message(embed=embed)
+    else:
+        await ctxs.response.send_message(f"Couldn't find a subordinate called {subordinate},my lord")
+
+
+
+bot.run("YOUR_BOT_TOKEN")
