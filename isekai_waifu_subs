@@ -1,0 +1,644 @@
+
+harem_list=['anna','jorogumo','bathory','fiadum','halle','sasha','rudolphi',
+			'brian','benzaiten','hilary','alice','luthea','fendall',
+			'nagiya','fiallis','helen','saria','kitsune','kaguya','iryna',
+			'medusa','obel','phyllis','aka&ao','fiadonna','freya','monika',
+			'chizuru','erica','besset','eneru','margret','great tengu',
+			'styx','avia','scardia','moxinia','krosa','jane','zilda',
+			'emily','paris','manzi','nephele','ephinas','vina','ceresa',
+			'isabella','ann','genkwa','natalie','canary','huo feng',
+			'miia','shena farlane','sayjane','phiariel'
+
+		]
+
+
+
+subs_list=['palotti','nina','eyma','gascoigne','fiadi','laura','betty','bhikkhuni','wolfe','mars',
+			'ebisu','caitlyn','alba','hadina','fiates','terya','renata','karasu','sylvia','gaia',
+			'ansell','paradise','ymir','trand','carol','luna','miko','rin','nebula','frankenstein',
+			'fiawat','wood','kyo','fiattina','mammon','lilith','beelzebub','abaddon','asmodeus',
+			'kusul','hastia','yogasat','neiya','collis','avia','scardia','moxinia','krosa',
+			'jane','zilda','emily','paris','mei ling','meidri','elza','xuan wu','erina',
+			'centorea','aniu','adah','phialoom','quirrel','elise'
+
+		]
+
+harem={
+		'anna':
+		['Good Wife',"A simple girl who cannot hide her feelings.","My love, you are always so 'enthusiastic'.",
+			"Bunny Girl","Production area","Outing",
+			"http://47.90.240.193/share/Half/W1_half_eb5d0c5a.png","http://47.90.240.193/share/Head/W1_head.png"],
+
+		'jorogumo':
+		['Woman in Love',"Once an innocent and pure girl, because of a tragic betrayal, she turned into a Yokai who hates men.","Give me more... more...",
+			"Spider","Production area","Influence Goal",
+			"http://47.90.240.193/share/Half/W2_half_c7cbc510.png","http://47.90.240.193/share/Head/W2_head.png"],
+
+		'bathory':
+		['Vampire Baroness',"A charming and capricious Vampire Baroness.","I've got your smell all over me.",
+			"Vampire","Production area","Influence Goal",
+			"http://47.90.240.193/share/Half/W3_half_7f0eebc0.png","http://47.90.240.193/share/Head/W3_head.png"],
+
+		'fiadum':
+		['Dark Elf'," Losing all emotion, she  lives only for her master.","Aaaahh! You're the best!",
+			"Dark Elf","Random date","Newbie Tutorial",
+			"http://47.90.240.193/share/Half/W4_half_bc9924a3.png","http://47.90.240.193/share/Head/W4_head.png"],
+
+		'halle':
+		['Butterfly Assassin',"An innocent, bold assassin who never misses and takes her work as a game, carrying out assassinations happily and with ease.","I like you being tough, Demon Prince.",
+			"Assassin","Assassin retreat","Assassin event rewards",
+			"http://47.90.240.193/share/Half/W5_half_50210834.png","http://47.90.240.193/share/Head/W5_head.png"],
+
+		'sasha':
+		['Mistaken Maid',"Attracted by Betty's description of the maid life in the palace, she snuck in.","Um, I wasn't too loud, was I?",
+			"Macaque","Production area","Outing",
+			"http://47.90.240.193/share/Half/W6_half_667b660e.png","http://47.90.240.193/share/Head/W6_head.png"],
+
+		'rudolphi':
+		['White-nosed Reindeer',"A reindeer humanoid who delivers fresh fruits and vegetables to every household in the cold winter.","Can you hug me when I sleep? Just a while?",
+			"Reindeer","Blessing points","Demon prince level pack",
+			"http://47.90.240.193/share/Half/W8_half_b04a0daf.png","http://47.90.240.193/share/Head/W8_head.png"],
+
+		'brian':
+		['Strange Coloured Flower',"Mars'younger brother. Carefully and rigorously educated by Mars.","Can we do it facing each other next time?",
+			"Fire Elf","Guild boss contribution","Guild store",
+			"http://47.90.240.193/share/Half/W9_half_75bf98e1.png","http://47.90.240.193/share/Head/W9_head.png"],
+
+		'hilary':
+		['Proud Knight',"A female knight with excellent swordsmanship, she is impatient, and has defeated many demons.","Stop looking at me like that!",
+			"Female knight","Production area","Outing",
+			"http://47.90.240.193/share/Half/W11_half_aabf8f0d.png","http://47.90.240.193/share/Head/W11_head.png"],
+		'alice':
+		['Abandoned Puppet',"An old mechanical puppet left in an abandoned workshop","My body feels hot... Am I about to break down?",
+			"Puppet","Production area","Influence Goal",
+			"http://47.90.240.193/share/Half/W12_half_5331fa6d.png","http://47.90.240.193/share/Head/W12_head.png"],
+
+		'luthea':
+		['Devil Maid',"Called the 'Devil Maid' because her impeccable manners and domestic skills are frighteningly high.","You're so anxious... Almost like it's your first time.",
+			"Maid","Production area","Outing",
+			"http://47.90.240.193/share/Half/W13_half_3f10e58a.png","http://47.90.240.193/share/Head/W13_head.png"],
+
+		'fendall':
+		['Buxom Beauty',"A wet and sticky slime creature can change shape freely.","I'm so shy I could melt.",
+			"Slime","Valiant retreat","Outing",
+			"http://47.90.240.193/share/Half/W14_half_f4e03b33.png","http://47.90.240.193/share/Head/W14_head.png"],
+
+		'nagiya':
+		['Obscene Succubus',"Born from a dream, she's a demon who feeds on the essence of men","You keep getting better and better",
+			"Devil","Production area","Outing",
+			"http://47.90.240.193/share/Half/W15_half_c26c3531.png","http://47.90.240.193/share/Head/W15_head.png"],
+
+		'fiallis':
+		['Sprite Group',"Inseparable elves who live freely in the forest.","There're several of us, is that OK?",
+			"Forest Elf","Production area","Outing",
+			"http://47.90.240.193/share/Half/W16_half_13315595.png","http://47.90.240.193/share/Head/W16_head.png"],
+
+		'helen':
+		['Unicorn',"Like a girl in a fairy tale, she lives deep in a forest in the north and never leaves.","You like that? Me too.",
+			"Unicorn","Production area","Outing",
+			"http://47.90.240.193/share/Half/W17_half_37186217.png","http://47.90.240.193/share/Head/W17_head.png"],
+
+		'saria':
+		['Desert Flower',"A bold and unrestrained exotic dancer","Do you remember where I like to be touched?",
+			"Dancer","Production area","Outing",
+			"http://47.90.240.193/share/Half/W18_half_1fffff96.png","http://47.90.240.193/share/Head/W18_head.png"],
+
+		'kitsune':
+		['Romantic',"A pleasure lover who likes the moon, alcohol, flowers and blades.","You can really be rough with people...",
+			"Kitsune","Hot spring","Sign-in for 7 days",
+			"http://47.90.240.193/share/Half/W19_half_2df7b7f.png","http://47.90.240.193/share/Head/W19_head.png"],
+
+		'kaguya':
+		['Girl of the Moon',"An elegant princess, who no matter the person, will always show them her higher status.","You like to be trampled on, don't you? Shout louder if you like it.",
+			"Moonlight Goddess","Cocktail party","VIP4",
+			"http://47.90.240.193/share/Half/W20_half_c36369c9.png","http://47.90.240.193/share/Head/W20_head.png"],
+
+		'iryna':
+		['Fallen Saint',"Once a saint, she lost her eyes and became a sinner a long time ago.","If my broken body can please you, please use me thoroughly in the future.",
+			"Sister","Arena points","VIP6",
+			"http://47.90.240.193/share/Half/W21_half_dbefde9e.png","http://47.90.240.193/share/Head/W21_head.png"],
+
+		'medusa':
+		['Rebellious Girl',"A girl with a fierce attitude, she always talks to others with a rude tone.","So? I did a good job, didn't I? I've always said I know this kind of thing very well. There's no way I'd be worse than them!",
+			"Snake Demon","Celebration","VIP8",
+			"http://47.90.240.193/share/Half/W22_half_6d8aa253.png","http://47.90.240.193/share/Head/W22_head.png"],
+		'obel':
+		['Flower Queen',"The Demon Flower Queen, she thinks she is very powerful, and always looks down on people.","You did that on purpose, right? You wanted to see me cry!",
+			"Flower Queen","Production area","VIP2",
+			"http://47.90.240.193/share/Half/W23_half_d521462e.png","http://47.90.240.193/share/Head/W23_head.png"],
+
+		'phyllis':
+		['Docile Pet',"A cat girl rescued from the hands of brigands, she is kind and clingy.","Was that good? Phyllis thinks so...",
+			"Cat girl","Combat talent of Wood","VIP10",
+			"http://47.90.240.193/share/Half/W24_half_913348b2.png","http://47.90.240.193/share/Head/W24_head.png"],
+
+		'aka&ao':
+		['Demons Aki&Ao',"Ghost sisters from the Eastern Kingdom, they are inseparable.","You just can't forget us after the first taste, can you?",
+			"Ghost","Combat talent of Kyo","VIP12",
+			"http://47.90.240.193/share/Half/W25_half_ea7f7760.png","http://47.90.240.193/share/Head/W25_head.png"],
+
+		'fiadonna':
+		['Radiant Elf',"Beautiful like a flower, as bright as the stars and as warm as a spring breeze.","Demon Prince, you tickle me as always.",
+			"Radiant Elf","Blessing points","Chapter 60",
+			"http://47.90.240.193/share/Half/W26_half_74582105.png","http://47.90.240.193/share/Head/W26_head.png"],
+
+		'freya':	
+		['Radiant Princess',"Planck's youngest princess, loved by all.","I can't tell whether it's your sweat or mine on my body...",
+			"Princess","Council","Chapter 40",
+			"http://47.90.240.193/share/Half/W27_half_fba2a23c.png","http://47.90.240.193/share/Head/W27_head.png"],
+
+		'monika':
+		['Unparalleled Love',"An elf born of the mountain at some unknown time.","I feel your power flowing deep within my body...",
+			"Pure Budding Flower","Production area","Chapter 90",
+			"http://47.90.240.193/share/Half/W28_half_d0a823d6.png","http://47.90.240.193/share/Head/W28_head.png"],
+
+		'chizuru':
+		['Sword Demon of the Blood Sea',"Swordswoman of the Eastern Kingdom","Would you like me to take the lead next time?",
+			"Swordswoman","Production area","Chapter 180",
+			"http://47.90.240.193/share/Half/W29_half_c3d4c95f.png","http://47.90.240.193/share/Head/W29_head.png"],
+
+		'erica':
+		['Humanoid Weapon',"A research weapon and machine girl developed by the Iron Kingdom Eiloss.","[Warning. Fuel is overflowing. Fuel is overflowing...]",
+			"Robot","Guild constructions","Guild store",
+			"http://47.90.240.193/share/Half/W30_half_3d881c5.png","http://47.90.240.193/share/Head/W30_head.png"],
+
+		'besset':
+		['Fervent Bloom',"From the underworld, a passionate and pretty girl.","Do you want to continue?",
+			"Egypt girl","Underground Exploration","Underground Exploration rewards",
+			"http://47.90.240.193/share/Half/W31_half_e03ad748.png","http://47.90.240.193/share/Head/W31_head.png"],
+
+		'eneru':
+		['Unparalleled Love',"An elf born of the mountain at some unknown time.","Slow down. Slow down.",
+			"Mountain Elf","Ancient Dragon","Ruins store",
+			"http://47.90.240.193/share/Half/W32_half_68a0c760.png","http://47.90.240.193/share/Head/W32_head.png"],
+
+		'margret':
+		['Happy Explorer',"Katherine's childhood friend, an explorer.","Stop playing with my tail...",
+			"Explorer","Lost Sands Lord Battle","A Fantastic Story of Adventure Event",
+			"http://47.90.240.193/share/Half/W33_half.png","http://47.90.240.193/share/Head/W33_head.png"],
+
+		'great tengu':
+		['Wings of Freedom',"Karasu's older sister. Claims to be an uncontrollable mountain maiden yokai.","Do you want to try going outside next time...?",
+			"Crow","Oracle's Peak Lord Battle","Oracle's Peak Lord Battle Event",
+			"http://47.90.240.193/share/Half/W34_half.png","http://47.90.240.193/share/Head/W34_head.png"],
+
+		'styx':
+		['Sea of Ice Lord',"The mistress of the Sea of Ice, emotionally unpredictable.","I must have lost myself for a moment.",
+			"Jellyfish","Sea of Ice","Sea of Ice",
+			"http://47.90.240.193/share/Half/W35_half_f4e7e0e3.png","http://47.90.240.193/share/Head/W35_head.png"],
+
+		'avia':
+		['Age-old Watcher',"Transformed into an Archaic Guardian by the power of the Demon Prince.","I... can't take this anymore.",
+			"God","Combat Talent of Avia","Archaic Guardian",
+			"http://47.90.240.193/share/Half/W36_half_a58ba156.png","http://47.90.240.193/share/Head/W36_head.png"],
+
+		'scardia':
+		['Palpitating Love',"Scardia, turned into a girl by the Demon Prince.","I feel like I'm in Heaven.",
+			"Bride","Combat Talent of Scardia","Archaic Guardian",
+			"http://47.90.240.193/share/Half/W37_half_25713006.png","http://47.90.240.193/share/Head/W37_head.png"],
+
+		'moxinia':
+		['Silent Pain',"Transformed into a female Archaic Guardian by the power of the Demon Prince.","(Mutter) I don't want you to go...",
+			"Robot","Combat Talent of  Moxinia","Archaic Guardian",
+			"http://47.90.240.193/share/Half/W38_half_dd7020de.png","http://47.90.240.193/share/Head/W38_head.png"],
+
+		'krosa':
+		['Fierce Claws',"Transformed into a female Archaic Guardian by the power of the Demon Prince.","Hey, where are you looking?",
+			"Dragon girl","Combat Talent of  Krosa","Archaic Guardian",
+			"http://47.90.240.193/share/Half/W39_half_694317.png","http://47.90.240.193/share/Head/W39_head.png"],
+
+		'jane':
+		['Masked Witch',"Jane unlocked her second form by herself.","That thing re-appeared on my belly...",
+			"Moth","Combat Talent of  Jane","Masquerade Troupe",
+			"http://47.90.240.193/share/Half/W40_half_8659868c.png","http://47.90.240.193/share/Head/W40_head.png"],
+
+		'zilda':
+		['Masked Swordsman',"Zilda with her mask off is like a gentle and intellectual sister","Come on, must I take the initiative?",
+			"Bird","Combat Talent of  Zilda","Masquerade Troupe",
+			"http://47.90.240.193/share/Half/W41_half_c578fd9a.png","http://47.90.240.193/share/Head/W41_head.png"],
+
+		'emily':
+		['Masked Executioner',"Although Emily has taken off her mask and laid down her arms, her character has not changed at all, even becoming more radical.","Don't go. Keep me company for a little longer.",
+			"Executioner","Combat Talent of  Emily","Masquerade Troupe",
+			"http://47.90.240.193/share/Half/W42_half_34cea8d5.png","http://47.90.240.193/share/Head/W42_head.png"],
+
+		'paris':
+		['Masked Sorceress',"A Sorceress who has taken off her mask.","Really, asking me to read now...",
+			"Sorceress","Combat Talent of  Paris","Masquerade Troupe",
+			"http://47.90.240.193/share/Half/W43_half_a3ba5e14.png","http://47.90.240.193/share/Head/W43_head.png"],
+       
+        'manzi':
+		['Dormant Dragon',"A doctor who runs an underground clinic","Don't leave, the night is still long.",
+			"Doctor","Combat Talent of  Mei Ling","Tavern",
+			"http://47.90.240.193/share/Half/W44_half_a4717a4.png","http://47.90.240.193/share/Head/W44_head.png"],
+
+
+		'nephele':
+		['Good as Gold',"Her hair is the famed and priceless golden fleece. She was kept in the Demon Palace by Mammon so he could monopolize the fleece.","Unwrap me like a gift, will you?",
+			"Sheep","Production area","The World in the Painting Event",
+			"http://47.90.240.193/share/Half/W45_half.png","http://47.90.240.193/share/Head/W45_head.png"],
+
+		'ephinas':
+		['Wonderful Nightmare',"A Dreameater who controls nightmares and likes telling stories. She seems erratic but has a preference for the Demon Prince.","Let me suck out all your fears?",
+			"Nightmare","Production area","The World in the Painting Event",
+			"http://47.90.240.193/share/Half/W46_half.png","http://47.90.240.193/share/Head/W46_head.png"],
+
+		'vina':
+		['Passionate Chef',"The private chef who cooks for Beelzebub. She always makes bad tasting food and then is made to cry. She seems excited when crying, as if it is on purpose.","Ahhh! I'm going to be eaten! Ah!",
+			"Chef","Production area","The World in the Painting Event",
+			"http://47.90.240.193/share/Half/W47_half.png","http://47.90.240.193/share/Head/W47_head.png"],
+
+		'ceresa':
+		['Princess Knight',"A princess knight. She is cursed and protects a long-destroyed country. Seemingly cold, she is actually full of love for the Demon Prince.","It's not enough, this 'love' is not enough.",
+			"Knight","Production area","The World in the Painting Event",
+			"http://47.90.240.193/share/Half/W48_half.png","http://47.90.240.193/share/Head/W48_head.png"],
+
+		'isabella':
+		['Demon Noblewoman',"A mysterious demon woman who likes to dress up as a human noblewoman. It seems she is so respected that even the Five Demon Lords would bow their heads in front of her.","Aren't you a very capable little lover.",
+			"Noblewoman","Production area","The World in the Painting Event",
+			"http://47.90.240.193/share/Half/W49_half.png","http://47.90.240.193/share/Head/W49_head.png"],
+
+		'ann':
+		['Fighter',"A famous female fighter in Paladina, who trains both body and mind to perfect her skills.","I can do more difficult positions too.",
+			"Fighter","Production area","Tavern",
+			"http://47.90.240.193/share/Half/W54_half.png","http://47.90.240.193/share/Head/W54_head.png"],
+
+		'genkwa':
+		['Downtown Beauty',"A white snake Lamia who opened an Eastern pharmacy on flower street. She's of the hardworking working class, and acts spoiled around the Demon Prince when tired, but doesn't want to share him with anyone else.","It's not over yet. This 'special treatment' takes a full 12 hours.",
+			"Snake","Production area","Tavern",
+			"http://47.90.240.193/share/Half/W55_half.png","http://47.90.240.193/share/Head/W55_head.png"],
+
+		'natalie':
+		['Magic Apprentice',"A new apprentice to the school of magic. Is curious about magic, no, about all things.","So intense...",
+			"Magic Apprentice","Production area","Influence Goal",
+			"http://47.90.240.193/share/Half/W56_half.png","http://47.90.240.193/share/Head/W56_head.png"],
+
+		'canary':
+		['Bounty Hunter',"An experienced bounty hunter who only accepts dangerous bounties. Currently on indefinite vacation in the Demon City.","Let's try it outside next time.",
+			"Bounty Hunter","Production area","Tavern",
+			"http://47.90.240.193/share/Half/W57_half.png","http://47.90.240.193/share/Head/W57_head.png"],
+
+		'huo feng':
+		['Forgotten God',"From the Far East, seen as an auspicious omen. She was once regarded as a God, but has since been forgotten.","This is a wonderful feeling that a god couldn't imagine.",
+			"God","Combat Talent of Xuan Wu","VIP 13",
+			"http://47.90.240.193/share/Half/W58_half.png","http://47.90.240.193/share/Head/W58_head.png"],
+
+		'miia':
+		['Lamia girl',"A Lamia girl who was accidently transported from another world on her way to study in 'Japan'.","Ah, Darling, not my tail—",
+			"Snake","Combat Talent of  Centorea","Everyday Life with Monster Girl Collaboration Event",
+			"http://47.90.240.193/share/Half/W60_half.png","http://47.90.240.193/share/Head/W60_head.png"],
+
+		'shena farlane':
+		['Pearl of the Ranch',"The sole heir to Farlane Ranch, she's warm, outgoing, and always willing to help. At a price, of course.","Um, it feels nice to be like a spoiled child occasionally.",
+			"Shepherdess","Production area","First Recharge Reward",
+			"http://47.90.240.193/share/Half/W61_half.png","http://47.90.240.193/share/Head/W61_head.png"],
+
+		'sayjane':
+		["Distant Sea's Songstress","A siren who lives in the Distant Sea.Has the voice of an angel and lacks sophistication because she has never been exposed  to the outside world.","Today, I'm singing... only for you, Demon Prince...",
+			"Mermaid","Combat Talent of Kusul","Songstress in the Storm Event",
+			"http://47.90.240.193/share/Half/W62_half.png","http://47.90.240.193/share/Head/W62_head.png"],
+
+		'phiariel':
+		['Clamorous Elf',"An elf maiden who dresses flamboyantly.She claims to be the gang leader of some kind and is passionate being cool and flashy.","I-I get it! It's a challenge... I won't hide... come on!",
+			"Clamorous Elf","Combat Talent of  Phialoom","The Wheel Of Fate Event",
+			"http://47.90.240.193/share/Half/W63_half.png","http://47.90.240.193/share/Head/W63_head.png"],
+
+		'benzaiten':
+		['Brilliant Musician',"Likes music, and is proficient in various  musical instruments,has a special preference for the Biwa.","You're very impressive...",
+			"Musician","Celebration","Influence Goal",
+			"http://47.90.240.193/share/Half//W10_half.png ","http://47.90.240.193/share/Head/W10_head.png"],
+
+		'':
+		['',"","",
+			"","","",
+			"",""]
+
+
+}
+
+
+
+
+subs={
+		'palotti':
+		['Commander',"Humanoid Village","initial",
+			"A young, but strong Bear Warrior. She is bold in appearance but delicate in heart, and very reliable.",
+			"http://47.90.240.193/share/Hero/Half/H1_half.png","http://47.90.240.193/share/Hero/Head/H1_head.png"],
+
+		'nina':
+		['Blade in the Shadows',"Eastern Kingdom","initial",
+			"A ninja from the far east. She is proficient in various ninja skills but reluctant to use her physical advantages to get information.Because she also lives in the dark, she has a good relationship with Jorogumo.",
+			"http://47.90.240.193/share/Hero/Half/H2_half.png","http://47.90.240.193/share/Hero/Head/H2_head.png"],
+
+		'eyma':
+		['Great Sage',"Human Kingdom","initial",
+			"Though she looks like a child, she has served under several Demon Princes. She's been through a lot of things, resulting in being able to remain calm under any circumstance. She hates trivial things. If asked to deal with council affairs, she would become very irritable.",
+			"http://47.90.240.193/share/Hero/Half/H3_half.png","http://47.90.240.193/share/Hero/Head/H3_head.png"],
+
+		'gascoigne':
+		['Demon Priest',"Demon Kingdom","initial",
+			"A demon who dresses like a priest. He totally lacks faith however, and only dresses in such a way to mock the devout. For the demon race, he would do anything.",
+			"http://47.90.240.193/share/Hero/Half/H4_half.png","http://47.90.240.193/share/Hero/Head/H4_head.png"],
+
+		'fiadi':
+		['Storm Rider',"Elven Forest","initial",
+			"An elf who can control the wind, she comes across as emotionless. Feels sorry for the exiled Fiadum and feels happy for the latter to become a consort.",
+			"http://47.90.240.193/share/Hero/Half/H5_half.png","http://47.90.240.193/share/Hero/Head/H5_head.png"],
+
+		'laura':
+		['Deadly Assassin',"Human Kingdom","Demon Prince Level 2",
+			"An experienced assassin. In order to complete missions more conveniently, she took drugs to stop the growth of her body. As a top assassin, she never asks questions but focuses on the mission itself.",
+			"http://47.90.240.193/share/Hero/Half/H6_half.png","http://47.90.240.193/share/Hero/Head/H6_head.png"],
+
+		'betty':
+		['Jumpy Novice',"Humanoid Village","Demon Prince Level 3",
+			"New to the logistics department, who can only do the most basic sorting work at present. Dressed in fashionable clothes and goes out often for fun. Happy with the status quo and enjoys life every day.",
+			"http://47.90.240.193/share/Hero/Half/H7_half.png","http://47.90.240.193/share/Hero/Head/H7_head.png"],
+
+		'bhikkhuni':
+		['Immortal Body',"Eastern Kingdom","Demon Prince Level 4",
+			"A female monk who gained immortality by mistakenly eating the flesh of a mermaid. Disgusted with her own body, she yearns to escape her immortal coil so that she may be reincarnated.",
+			"http://47.90.240.193/share/Hero/Half/H8_half.png","http://47.90.240.193/share/Hero/Head/H8_head.png"],
+
+
+		'wolfe':
+		['Boiling Wolf Blood',"Port Orson","Demon Prince Level 5",
+			"Palotti's fellow-townsman, a forthright werewolf,who dislikes weapons, preferring to use her own teeth and claws in battle.",
+			"http://47.90.240.193/share/Hero/Half/H9_half.png","http://47.90.240.193/share/Hero/Head/H9_head.png"],
+
+		'mars':
+		['Frivolous Prodigy',"Humanoid Village","Demon Prince Level 6",
+			"An elf who can manipulate fire. Passionate and unrestrained, and eager to pursue young and beautiful women.",
+			"http://47.90.240.193/share/Hero/Half/H10_half.png","http://47.90.240.193/share/Hero/Head/H10_head.png"],
+
+		'ebisu':
+		['Confused God of Wealth',"Eastern Kingdom","Demon Prince Level 7",
+			"Subordinate in charge of finance, whose mantra is 'No problem!'. She often makes mistakes in her calculations, but no one has the heart to tell her.",
+			"http://47.90.240.193/share/Hero/Half/H11_half.png","http://47.90.240.193/share/Hero/Head/H11_head.png"],
+
+		'caitlyn':
+		['Logistics Officer',"Humanoid Village","Demon Prince Level 8",
+			"Responsible for logistics and likes to store goods until they're piled high. She is very meticulous when it comes to the management of such goods. If she finds someone being wasteful, she'll give them a good telling off. In a sense, she's the most difficult Subordinate to deal with.",
+			"http://47.90.240.193/share/Hero/Half/H12_half.png","http://47.90.240.193/share/Hero/Head/H12_head.png"],
+
+		'alba':
+		['Seven Seas',"Port Orson","Demon Prince Level 9",
+			"A notorious pirate more greedy and ferocious than any man. Just the mention of her name has people terrified.",
+			"http://47.90.240.193/share/Hero/Half/H13_half.png","http://47.90.240.193/share/Hero/Head/H13_head.png"],
+
+		'hadina':
+		['Daredevil',"Demon Kingdom","Demon Prince Level 10",
+			"A clumsy apprentice Reaper. Though she tries hard, she often makes mistakes that make others laugh at her.",
+			"http://47.90.240.193/share/Hero/Half/H14_half.png","http://47.90.240.193/share/Hero/Head/H14_head.png"],
+
+		'fiates':
+		['Sleepy Child',"Elven Forest","Demon Prince Level 11",
+			"Fairy who can control electricity. Constantly sleepy, and never works unless absolutely necessary.",
+			"http://47.90.240.193/share/Hero/Half/H15_half.png","http://47.90.240.193/share/Hero/Head/H15_head.png"],
+
+		'terya':
+		['Wise Assistant',"Human Kingdom","Demon Prince Level 12",
+			"A close friend of Hilary's. Unlike the female knight, she is extremely calm. Out of worry about Hilary, she now serves as the latter's assistant officer.",
+			"http://47.90.240.193/share/Hero/Half/H16_half.png","http://47.90.240.193/share/Hero/Head/H16_head.png"],
+
+		'renata':
+		['Practical Joker',"Demon Kingdom","Demon Prince Level 13",
+			"An immortal mummy. Died young, and remains forever childish. She often pretends to be terrifying to try and scare people.",
+			"http://47.90.240.193/share/Hero/Half/H17_half.png","http://47.90.240.193/share/Hero/Head/H17_head.png"],
+
+		'karasu':
+		['Talented Military Strategist',"Eastern Kingdom","Main Plot 10",
+			"A maiden wearing a tengu mask, who claims to be a Talented Military Strategist. In fact, she's just a noisy but lucky little girl.",
+			"http://47.90.240.193/share/Hero/Half/H19_half.png","http://47.90.240.193/share/Hero/Head/H19_head.png"],
+
+		'sylvia':
+		['Dullahan',"Demon Kingdom","Main Plot 24",
+			"In order not to frighten others, the headless knight is in full armor forever. With its chic and handsome look, it attracted Alice who was very patient, caring for the innocent puppet like a big sister.",
+			"http://47.90.240.193/share/Hero/Half/H20_half.png","http://47.90.240.193/share/Hero/Head/H20_head.png"],
+
+		'gaia':
+		['Emissary of the Earth',"Port Orson","Main Plot 43",
+			"An Elf born from the earth, who is a simple and carefree girl. Would bite her tongue when speaking even slightly complicated words. And she can't speak with courtesy, but she doesn't care.",
+			"http://47.90.240.193/share/Hero/Half/H21_half.png","http://47.90.240.193/share/Hero/Head/H21_head.png"],
+
+		'ansell':
+		['Devious Collector',"Human Kingdom","Main Plot 54",
+			"",
+			"http://47.90.240.193/share/Hero/Half/H22_half.png","http://47.90.240.193/share/Hero/Head/H22_head.png"],
+
+		'paradise':
+		['Child of the Sky',"Port Orson","Main Plot 65",
+			"A holy Harpy girl who hates war. Rarely talks to others, but quite interested in Fendall.",
+			"http://47.90.240.193/share/Hero/Half/H23_half.png","http://47.90.240.193/share/Hero/Head/H23_head.png"],
+
+		'ymir':
+		['Cruel Instinct',"Demon Kingdom","Main Plot 77",
+			"A savage, vulgar and violent Gargoyle, not welcomed by others, just like Nagiya. Such a situation has even prompted her to unleash her true nature.",
+			"http://47.90.240.193/share/Hero/Half/H24_half.png","http://47.90.240.193/share/Hero/Head/H24_head.png"],
+
+		'trand':
+		['Friend of the Forest',"Elven Forest","Main Plot 87",
+			"A Tree Spirit who loves peace and nature. Fiallis's neighbor, coexisting happily in the forest.",
+			"http://47.90.240.193/share/Hero/Half/H25_half.png","http://47.90.240.193/share/Hero/Head/H25_head.png"],
+
+		'carol':
+		['Library Administrator',"Humanoid Village","Reach 5000 Reading Points",
+			"A subordinate in charge of the library, who has a good relationship with Helen. She seems to be diligent and reliable, but occasionally there are pieces of paper hanging around her mouth. She denies it having anything to do with the library books missing pages however.",
+			"http://47.90.240.193/share/Hero/Half/H26_half.png","http://47.90.240.193/share/Hero/Head/H26_head.png"],
+
+		'luna':
+		['Bard',"Human Kingdom","Embassy",
+			"The girl who traveled here with Saria, who will co-perform while Saria performs. She knows many lost stories and legends, some of which even Archsage Eyma have not even heard of.",
+			"http://47.90.240.193/share/Hero/Half/H27_half.png","http://47.90.240.193/share/Hero/Head/H27_head.png"],
+
+		'miko':
+		['Perfect Heart',"Port Orson","7-day login",
+			"The little witch who was adopted by Kitsune, whose name was completely the result of Kitsune being lazy. Unlike the sloppy Kitsune, she is serious and polite.",
+			"http://47.90.240.193/share/Hero/Half/H28_half.png","http://47.90.240.193/share/Hero/Head/H28_head.png"],
+
+		'rin':
+		['Anatman Style',"Eastern Kingdom","VIP1",
+			"Kaguya's bodyguard, a brave and upright young swordswoman. She trains in fencing whenever she can, and has no other interests.",
+			"http://47.90.240.193/share/Hero/Half/H29_half.png","http://47.90.240.193/share/Hero/Head/H29_head.png"],
+
+		'nebula':
+		['Messenger of the Gods',"Human Kingdom","VIP7",
+			"A great Diviner, who is often called the 'Messenger of the Gods' for her accurate divinations. Once predicted the fall of Iryna.",
+			"http://47.90.240.193/share/Hero/Half/H30_half.png","http://47.90.240.193/share/Hero/Head/H30_head.png"],
+
+		'frankenstein':
+		['Crazy Inventor',"Demon Kingdom","VIP5",
+			"A little girl Medusa picked up from the trash, who always stayed in the workshop, no one knows what she was doing in there all day long. Strangely, the things she made are always tattered but surprisingly useful.",
+			"http://47.90.240.193/share/Hero/Half/H31_half.png","http://47.90.240.193/share/Hero/Head/H31_head.png"],
+
+		'fiawat':
+		['Tomboy',"Elven Forest","VIP3",
+			"An elf who is proficient in water magic, as naughty as a boy. Grew up together with Obel, who often worries about unreliable flower spirits.",
+			"http://47.90.240.193/share/Hero/Half/H32_half.png","http://47.90.240.193/share/Hero/Head/H32_head.png"],
+
+		'wood':
+		['Heroic Tiger',"Humanoid Village","VIP9",
+			"A forthright warrior who favors melee combat and always charges up front in battle. Likes to wrestle, but can't find suitable opponents. Wants to test his strength against anyone with muscles.",
+			"http://47.90.240.193/share/Hero/Half/H33_half.png","http://47.90.240.193/share/Hero/Head/H33_head.png"],
+
+		'kyo':
+		['Resolute Judge',"Eastern Kingdom","VIP10",
+			"A selfless judge, who knew Aka & Ao a long time ago. He often complains about work, but works hard when required.",
+			"http://47.90.240.193/share/Hero/Half/H34_half.png","http://47.90.240.193/share/Hero/Head/H34_head.png"],
+
+		'fiattina':
+		['Apprentice Mage',"Elven Forest","Main Plot 113",
+			"An apprentice mage who follows Fiadonna. Though she hasn't studied long, she shows tremendous potential. She worships Fiadonna and strives to become a person like the latter.",
+			"http://47.90.240.193/share/Hero/Half/H35_half.png","http://47.90.240.193/share/Hero/Head/H35_head.png"],
+
+		'mammon':
+		['Ruler of Desire',"Five Demon Generals","Event",
+			"Young and with little fighting experience, but good at using wealth to incite people's hidden desires to stir up trouble. A true conspirator.",
+			"http://47.90.240.193/share/Hero/Half/H36_half.png","http://47.90.240.193/share/Hero/Head/H36_head.png"],
+
+		'lilith':
+		['Night Queen',"Five Demon Generals","Event",
+			"Wild and cruel, she loves eroding the will of brave warriors, making them useless and then casting them aside. Unlike her appearance, she is quite terrifying.",
+			"http://47.90.240.193/share/Hero/Half/H37_half.png","http://47.90.240.193/share/Hero/Head/H37_head.png"],
+
+		'beelzebub':
+		['Symbol of Gluttony',"Five Demon Generals","Event",
+			"She looks like a sweet little loli, but she's very frightening. She's always eating meat that doesn't match her small stature. It's said it suppresses a different desire of hers.",
+			"http://47.90.240.193/share/Hero/Half/H38_half.png","http://47.90.240.193/share/Hero/Head/H38_head.png"],
+
+		'abaddon':
+		['Embodiment of Ruination',"Five Demon Generals","Event",
+			"A terrifying warrior. He shows no mercy and accepts no surrender. Just the mention of his name is enough to send the enemy running.",
+			"http://47.90.240.193/share/Hero/Half/H39_half.png","http://47.90.240.193/share/Hero/Head/H39_head.png"],
+
+		'asmodeus':
+		['Demon Master',"Five Demon Generals","Event",
+			"A quiet warrior. His face is fierce and daunting, but he is actually a simple and good man.",
+			"http://47.90.240.193/share/Hero/Half/H40_half.png","http://47.90.240.193/share/Hero/Head/H40_head.png"],
+
+		'kusul':
+		['Abyssal Ripple',"Cosmic Four","Event",
+			"A weak girl from an alien star, she was awakened from her deep sleep by the Demon Prince. While useless at physical attacks, she has powerful psychic attacks.",
+			"http://47.90.240.193/share/Hero/Half/H41_half.png","http://47.90.240.193/share/Hero/Head/H41_head.png"],
+
+		'hastia':
+		['Proud Yellow Clothes',"Cosmic Four","Event",
+			"A mature woman from an alien star. She's cold and aggressive, and hard to get close to. She's very strong however, so she's quite reliable.",
+			"http://47.90.240.193/share/Hero/Half/H42_half.png","http://47.90.240.193/share/Hero/Head/H42_head.png"],
+
+		'yogasat':
+		['Key of Transition',"Cosmic Four","Event",
+			"A maiden from an alien star. The silver key in her hand is similar to the Imperial Relic the Demon Princes search for, but only she can use it.",
+			"http://47.90.240.193/share/Hero/Half/H43_half.png","http://47.90.240.193/share/Hero/Head/H43_head.png"],
+
+		'neiya':
+		['Girl of a Thousand Faces',"Cosmic Four","Event",
+			"A cute girl from an alien star. She can change her appearance at will. Hidden under her cute appearance are unknown truths.",
+			"http://47.90.240.193/share/Hero/Half/H44_half.png","http://47.90.240.193/share/Hero/Head/H44_head.png"],
+
+		'collis':
+		['Ruthless Medical Officer',"Demon Kingdom","Pre-order Rewards",
+			"A medical officer who insists 'anything can be done to a patient if it will heal them'. Those she 'heals' can often be heard screaming. Contrary to her lovely appearance, she's certainly no angel.",
+			"http://47.90.240.193/share/Hero/Half/H45_half.png","http://47.90.240.193/share/Hero/Head/H45_head.png"],
+
+		'avia':
+		['Age-old Watcher',"Archaic Guardian","Event",
+			"The first Archaic Guardian to be awakened. With no gender, it's quick to understand and accept the status quo, becoming the Demon Prince's strength and being a link for other awakened Guardians.",
+			"http://47.90.240.193/share/Hero/Half/H46_half.png","http://47.90.240.193/share/Hero/Head/H46_head.png"],
+
+		'scardia':
+		['Palpitating Love',"Archaic Guardian","Event",
+			"One of the Archaic Guardians, which has no gender. Fanatically supports the Demon Prince, slightly deviating from the role of a Guardian.",
+			"http://47.90.240.193/share/Hero/Half/H47_half.png","http://47.90.240.193/share/Hero/Head/H47_head.png"],
+
+		'moxinia':
+		['Silent Pain',"Archaic Guardian","Event",
+			"A genderless mechanized Archaic Guardian. Has been enduring the physical pain of overloading while trying to hide the fact.",
+			"http://47.90.240.193/share/Hero/Half/H48_half.png","http://47.90.240.193/share/Hero/Head/H48_head.png"],
+
+		'krosa':
+		['Fierce Claw',"Archaic Guardian","Event",
+			"One of the genderless Archaic Guardians. Despite being a child, it's strong in combat, has a bad temper and is quick to disagree.",
+			"http://47.90.240.193/share/Hero/Half/H49_half.png","http://47.90.240.193/share/Hero/Head/H49_head.png"],
+
+		'jane':
+		['Masked Witch',"Masked Troupe","Event",
+			"Member of the Masquerade Troupe, who can make objects float in the air with her mind. At first glance, she looks like an ordinary cute girl, but she's a lot more than that.",
+			"http://47.90.240.193/share/Hero/Half/H50_half.png","http://47.90.240.193/share/Hero/Head/H50_head.png"],
+
+		'zilda':
+		['Masked Swordsman',"Masked Troupe","Event",
+			"The leader of the Masquerade Troupe. The sword in her hand can reverse cause and effect, which makes her able to strike before the enemy under any circumstance.",
+			"http://47.90.240.193/share/Hero/Half/H51_half.png","http://47.90.240.193/share/Hero/Head/H51_head.png"],
+
+		'emily':
+		['Masked Executioner',"Masked Troupe","Event",
+			"One of the members of the Masquerade Troupe. Under her sweet appearance, there is an extremely terrible desire for exclusivity. She will not tolerate anyone laying a finger on the possessions she deems hers.",
+			"http://47.90.240.193/share/Hero/Half/H52_half.png","http://47.90.240.193/share/Hero/Head/H52_head.png"],
+
+		'paris':
+		['Masked Sorceress',"Masked Troupe","Event",
+			"A member of the Masked Troupe. She's said to be a powerful sorcerer. Narrow-minded with an eccentric personality, she curses people when even slightly unhappy.",
+			"http://47.90.240.193/share/Hero/Half/H53_half.png","http://47.90.240.193/share/Hero/Head/H53_head.png"],
+
+		'mei ling':
+		['Joyous White Tiger',"Humanoid Village","Demon City Exchange Store",
+			"A carefree, noisy girl. She is so energetic that you might hear her voice or see her everywhere.",
+			"http://47.90.240.193/share/Hero/Half/H54_half.png","http://47.90.240.193/share/Hero/Head/H54_head.png"],
+
+		'meidri':
+		['Guest Waitress',"Humanoid Village","Interspecies Reviewers Collaboration Event",
+			"A Birdmaid who manages the Succu-girl Joint's finances after coming to Paladina. She may work in a Succu-girl Joint, but she shies away from adult oriented topics. Despite this, she attracts a lot of male attention.",
+			"http://47.90.240.193/share/Hero/Half/H55_half.png","http://47.90.240.193/share/Hero/Head/H55_head.png"],
+
+		'elza':
+		['Experienced Receptionist',"Humanoid Village","Interspecies Reviewers Collaboration Event",
+			"A hyena Succu-girl, very cool and handsome, she provides services for women. She was brought to Paladina as a 'Succu-girl Joint girl who can broaden the services'.",
+			"http://47.90.240.193/share/Hero/Half/H56_half.png","http://47.90.240.193/share/Hero/Head/H56_head.png"],
+
+		'xuan wu':
+		['Careless God',"Humanoid Village","VIP13",
+			"Much like Huo Feng, she is seen as an auspicious omen. She dislikes this, as it brings a lot of trouble.",
+			"http://47.90.240.193/share/Hero/Half/H57_half.png","http://47.90.240.193/share/Hero/Head/H57_head.png"],
+
+		'erina':
+		['Dangerous Elegance',"Demon Kingdom","Event",
+			"She treats carnivorous plants as adorable children, spending day and night with them. The ones behind her head are man-eating plants.",
+			"http://47.90.240.193/share/Hero/Half/H59_half.png","http://47.90.240.193/share/Hero/Head/H59_head.png"],
+
+		'centorea':
+		['Kentauros',"Humanoid Village","Everyday Life with Monster Girl Collaboration Event",
+			"A centaur from another world who has decided to give her unending loyalty to the Demon Prince. She has recently fallen in love with the carrots from the city.",
+			"http://47.90.240.193/share/Hero/Half/H60_half.png","http://47.90.240.193/share/Hero/Head/H60_head.png"],
+
+		'aniu':
+		['Warm Hugger',"Demon Kingdom","Event",
+			"The moose demi-humans are tall and gentle, but they bring the cold winter whereever they go.",
+			"http://47.90.240.193/share/Hero/Half/H61_half.png","http://47.90.240.193/share/Hero/Head/H61_head.png"],
+
+		'adah':
+		['The Loyal Shepherd',"Humanoid Village","First Recharge Rewards",
+			"She's the shepherd of Farlane Ranch. A sheepwolf not a sheepdog!",
+			"http://47.90.240.193/share/Hero/Half/H62_half.png","http://47.90.240.193/share/Hero/Head/H62_head.png"],
+
+		'phialoom':
+		['Benign Darkness',"Elven Forest","Event",
+			"Sage of the Dark Elfs, Supreme Black Mage, Dark Horror, Eternal Sinner... These were the names by which she was called, now she's just the lackey of some indulgent boss.",
+			"http://47.90.240.193/share/Hero/Half/H63_half.png","http://47.90.240.193/share/Hero/Head/H63_head.png"],
+
+		'quirrel':
+		['Legend of the Past',"Port Orson","Event",
+			"The Glorious Adventurer, the Legendary Hero with eight blades...These belong to her past. Now, Quirrel is just the owner of a tavern.",
+			"http://47.90.240.193/share/Hero/Half/H64_half.png","http://47.90.240.193/share/Hero/Head/H64_head.png"],
+
+		'':
+		['',"","",
+			"",
+			"",""]
+
+
+
+}
+
+
+
