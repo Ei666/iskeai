@@ -12,7 +12,24 @@ intents.message_content=True
    # return [lang for lang in isekai.harem_list if user_input.lower() in lang]
 
 
-bot = commands.Bot(command_prefix=commands.when_mentioned,activity=disnake.Game(name="Isekai:DemonWaifu"))
+bot = commands.Bot(command_prefix=commands.when_mentioned,activity=disnake.Game(name="/help for commands info"))
+
+#获得命令信息
+@bot.slash_command(description="General Information",
+                     guild_ids=[YOUR_GUILD_ID])
+
+async def help(ctx):
+     embed = disnake.Embed(
+        title="Luthea Bot",
+        description="You can use the following command to get information in game",
+        color=disnake.Colour.red()   
+        )
+    
+     embed.add_field(name="commmads:",
+        value=f"```/my_waifu |  get the waifu's profile```\n```/my_sub   |  get the subordinate's profile```  ")
+
+     await ctx.response.send_message(embed=embed)
+
 
 @bot.slash_command(description="Get waifu's profile",
 				   guild_ids=[YOUR_GUILD_ID])
