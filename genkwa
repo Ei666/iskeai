@@ -29,8 +29,41 @@ async def help(ctx):
         value=f"```/my_waifu |  get the waifu's profile```\n```/my_sub   |  get the subordinate's profile```  ")
 
      await ctx.response.send_message(embed=embed)
+     
+#获取魔妃list
+@bot.slash_command(description="All the waifus",
+                     guild_ids=[YOUR_GUILD_ID])
+
+async def waifu_list(ctx):
+     embed = disnake.Embed(
+        title="Waifu List",
+        description="Here are all the waifu in game",
+        color=disnake.Colour.red())
 
 
+     embed.add_field(name="waifus:",
+        value=f"```{isekai.list1}```")
+
+     await ctx.response.send_message(embed=embed)
+
+
+#获取部下list
+@bot.slash_command(description="All the Subs",
+                     guild_ids=[YOUR_GUILD_ID])
+
+async def sub_list(ctx):
+     embed = disnake.Embed(
+        title="Sub List",
+        description="Here are all the Subordinates in game",
+        color=disnake.Colour.red())
+
+
+     embed.add_field(name="Subs:",
+        value=f"```{isekai.list2}```")
+
+     await ctx.response.send_message(embed=embed)
+
+#魔妃profile
 @bot.slash_command(description="Get waifu's profile",
 				   guild_ids=[YOUR_GUILD_ID])
 
