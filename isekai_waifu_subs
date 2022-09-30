@@ -7,9 +7,30 @@ harem_list=['anna','jorogumo','bathory','fiadum','halle','sasha','rudolphi',
 			'styx','avia','scardia','moxinia','krosa','jane','zilda',
 			'emily','paris','manzi','nephele','ephinas','vina','ceresa',
 			'isabella','ann','genkwa','natalie','canary','huo feng',
-			'miia','shena farlane','sayjane','phiariel'
+			'miia','shena farlane','sayjane','phiariel']
 
-		]
+def split_list(x,n,newList=[]):
+
+    if len(x)<=n:
+        newList.append(x)
+        return newList
+    else:
+        newList.append(x[:n])
+        return split_list(x[n:],n,newList)
+
+new=[]
+split_list(sorted(harem_list),5,new)
+
+strResult=""
+i=1
+for _data in new:
+    i+=1
+    strResult=strResult.title()+' | '.join(_data)
+    if i<=len(new):
+        strResult=strResult.title()+'\n'
+list1=strResult
+
+
 
 
 
@@ -19,10 +40,21 @@ subs_list=['palotti','nina','eyma','gascoigne','fiadi','laura','betty','bhikkhun
 			'fiawat','wood','kyo','fiattina','mammon','lilith','beelzebub','abaddon','asmodeus',
 			'kusul','hastia','yogasat','neiya','collis','avia','scardia','moxinia','krosa',
 			'jane','zilda','emily','paris','mei ling','meidri','elza','xuan wu','erina',
-			'centorea','aniu','adah','phialoom','quirrel','elise'
+			'centorea','aniu','adah','phialoom','quirrel','elise']
 
-		]
+new2=[]
+split_list(sorted(subs_list),5,new2)
 
+strResult2=""
+i=1
+for _data in new2:
+    i+=1
+    strResult2=strResult2.title()+' | '.join(_data)
+    if i<=len(new2):
+        strResult2=strResult2.title()+'\n'
+list2=strResult2
+
+		
 harem={
 		'anna':
 		['Good Wife',"A simple girl who cannot hide her feelings.","My love, you are always so 'enthusiastic'.",
